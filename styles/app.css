@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    margin-left: 30px;
+}
+
+/* font-family: 'Girassol', cursive; - for slider
+font-family: 'Inria Serif', serif; -for nav */
+
+.ba-container{
+    width: 1170px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0;
+}
+/* img{
+    max-width: 100%;
+  } */
+.ba-menu-item{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.ba-header{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+}
+.ba-logo{
+    margin-left: 29px;
+}
+.ba-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ba-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.ba-left{
+    margin-left: 30px;
+}
+.ba-menu-item, .ba-logo-link{
+    font-family: 'Inria Serif', serif;
+}
+.ba-slider{
+    width: 1170px;
+    /* height: 980px; */
+    max-width: 75%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .baContainerSlider{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+} */
+.ba-allslaid{
+    font-family: 'Girassol', cursive;
+}
+.slider{
+    /* width: 850px; */
+    /* width: 1170px; */
+    max-width: 75%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px
+}
+h2{
+    font-size: 60px;
+    font-family: 'Girassol', cursive;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+p{
+    font-size: 17px;
+    font-family: 'Girassol', cursive;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+.ba-btn{
+    width: 150px;
+    height: 42px;
+    border: 5px solid #eecd31;
+    background-color:#eecd31;
+    border-radius: 22px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Inria Serif', serif;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+    color:gray;
+}
+.slick-dots li.slick-active button:before{
+    color:white;
+}
+.prev{
+    margin-left: 97%;
+    bottom: 197px;
+    position: absolute;
+    z-index: 100;
+}
+.next{
+    bottom: 197px;
+    position: absolute;
+    z-index: 100;
+}
+.slick-dots{
+    bottom: -30px;
+}
+.ba-menu__link{
+    color: #fff;
+    transition: .3s;
+}
+.ba-menu__link:hover,
+.ba-menu__link:focus{
+    color: #e71cb4;
+}
+.ba-menu__link:active{
+    color:gold;
+}
+.ba-logo-link:hover,
+.ba-logo-link:focus{
+    color: goldenrod;
+}
+.ba-logo-link:active{
+    color:gold;
+}
