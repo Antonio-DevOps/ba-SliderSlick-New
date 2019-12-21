@@ -1,1 +1,1 @@
-# ba-SliderSlick-New
+My New Slider with Slick Slider
