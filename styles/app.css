@@ -11,7 +11,7 @@ body{
 font-family: 'Inria Serif', serif; -for nav */
 
 .ba-container{
-    width: 1170px;
+    min-width: 1170px;
     max-width: 100%;
     padding: 0 15px;
     margin: 0;
